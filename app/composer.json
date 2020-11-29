@@ -1,0 +1,11 @@
+{
+    "name": "madridistka98/GuestBook",
+    "require": {},
+    "require-dev": {
+        },
+    "autoload": {
+        "psr-4": {
+            "GuestBook\\": "."
+        }
+    }
+}
