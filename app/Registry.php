@@ -4,9 +4,9 @@ namespace GuestBook;
 
 class Registry 
 {
-    private static ?\GuestBook\Registry $registry = null;
-    private ?\GuestBook\Configuration\DBConfiguration $dbConfig = null;
-    private ?\GuestBook\Request $request = null;
+    private static \GuestBook\Registry $registry = null;
+    private \GuestBook\Configuration\DBConfiguration $dbConfig = null;
+    private \GuestBook\Request $request = null;
 
     private function __construct()
     {
